@@ -1,9 +1,9 @@
 #include"elevator.h"
-int main()
+int main(int argc,char* argv[])
 {
-	freopen("input.txt", "r", stdin);
+	freopen(argv[1], "r", stdin);
 	int n,i,a,b,c,d,f,t1=0,t2=0,t3=0;
-	Elevator e1, e2, e3;//´´½¨3¸öµçÌÝ¶ÔÏó
+	Elevator e1, e2, e3;//åˆ›å»º3ä¸ªç”µæ¢¯å¯¹è±¡
 	cin >> n;
 	FILE *f1, *f2, *f3;
 	for (i = 0; i < n; i++)
